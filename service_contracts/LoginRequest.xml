@@ -1,0 +1,4 @@
+<LoginRequest>
+	<UserName>TEST_DONOR</UserName>
+	<Password>passwordtext</Password>
+</LoginRequest
