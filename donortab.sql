@@ -1,1 +1,0 @@
-create TABLE donor( id NUMBER , d_name INTEGER(20), email_id INTEGER(20), contact INTEGER(10), password INTEGER(20), dob INTEGER(20), wt INTEGER, ht INTEGER )
