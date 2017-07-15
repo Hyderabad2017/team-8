@@ -1,0 +1,1 @@
+create TABLE confirmdonors( recname VARCHAR(20), recemail VARCHAR(20), reccontact INTEGER(10), donname VARCHAR(20), doncontact INTEGER(20), donemail VARCHAR(20), blood_group VARCHAR(4) )

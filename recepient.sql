@@ -1,0 +1,1 @@
+create TABLE recepient( id INTEGER, name INTEGER(20), email_id VARCHAR(20), contact INTEGER(10), blood_grp_flg VARCHAR(2) ,blood_grp VARCHAR(10) )

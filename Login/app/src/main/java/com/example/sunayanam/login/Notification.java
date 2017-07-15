@@ -12,7 +12,7 @@ public class Notification extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notification);
-        final Button bCheck = (Button) findViewById(R.id.bLogin);
+        final Button bCheck = (Button) findViewById(R.id.bCheck);
 
         bCheck.setOnClickListener(new View.OnClickListener() {
                                       public void onClick(View view) {
