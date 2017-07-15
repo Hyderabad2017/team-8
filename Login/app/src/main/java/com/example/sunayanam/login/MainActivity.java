@@ -27,5 +27,14 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(registerIntent);
             }
         });
+        bLogin.setOnClickListener(new View.OnClickListener()
+                                  {
+                                      public void onClick(View view)
+                                      {
+                                          Intent bLogin = new Intent (MainActivity.this,Notification.class);
+                                          MainActivity.this.startActivity(bLogin);
+                                      }
+                                  }
+        );
     }
 }
