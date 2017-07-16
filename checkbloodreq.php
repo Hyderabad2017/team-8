@@ -1,6 +1,6 @@
 <?php
 include("connect.php");
-$query="SELECT * FROM recipient where blood_group_flag='y'";
+$query="SELECT * FROM recipient where blood_group_flag='Y'";
 //$strsql=mysqli_query($db,$query);
 $strsql=mysqli_query($db,$query);
 while($row=mysqli_fetch_assoc($strsql)){
@@ -12,11 +12,3 @@ while($row=mysqli_fetch_assoc($strsql)){
     
 }
 ?>
-
-<!--$query="SELECT name from recipient where email='".$email."' AND password='".$pass."'";
-$strsql=mysqli_query($db,$query);
-$results=mysqli_fetch_array($strsql);
-    if(count($results)>=1){
-        
-        echo "<result>'loginsuccess'</result>";
-    }-->
