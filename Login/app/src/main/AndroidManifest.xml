@@ -41,7 +41,9 @@
         <activity android:name=".Notification" />
         <activity android:name=".BloobBank" />
         <activity android:name=".MapsActivity" />
-
+        <activity android:name=".LoginRec" />
+        <activity android:name=".RegisterRec" />
+        <activity android:name=".Bloodgroup"></activity>
     </application>
 
 </manifest>
