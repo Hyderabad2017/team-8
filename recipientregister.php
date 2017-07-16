@@ -9,8 +9,10 @@ $name=$_GET['name'];
 $email=$_GET['email'];
 $contact=$_GET['contact'];
 $pass=$_GET['pass'];
-$query="INSERT INTO recipient(name,email,password,contact,blood_request_flag) values('".$name."','".$email."','".$pass."','".$contact."','N')";
+$location=$_GET['location'];
+$query="INSERT INTO recipient(name,email,password,contact,blood_request_flag,location) values('".$name."','".$email."','".$pass."','".$contact."','N','".$location."')";
 $strsql=mysqli_query($db,$query);
+echo "created a new recipient";
 ?> 
 
 </body>
