@@ -43,7 +43,8 @@
         <activity android:name=".MapsActivity" />
         <activity android:name=".LoginRec" />
         <activity android:name=".RegisterRec" />
-        <activity android:name=".Bloodgroup"></activity>
+        <activity android:name=".Bloodgroup" />
+        <activity android:name=".Message"></activity>
     </application>
 
 </manifest>
