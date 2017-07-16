@@ -16,7 +16,7 @@ public class BloobBank extends AppCompatActivity {
 
         bMap.setOnClickListener(new View.OnClickListener() {
                                       public void onClick(View view) {
-                                          Intent bLogin = new Intent(BloobBank.this, Map.class);
+                                          Intent bLogin = new Intent(BloobBank.this, MapsActivity.class);
                                           BloobBank.this.startActivity(bLogin);
                                       }
                                   }
@@ -25,4 +25,4 @@ public class BloobBank extends AppCompatActivity {
 
 
     }
-}
+

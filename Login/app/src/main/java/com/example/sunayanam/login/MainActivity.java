@@ -8,6 +8,10 @@ import android.widget.EditText;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -27,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(registerIntent);
             }
         });
+
+        try {
+            URL url = new URL("10.49.190.144/unitedway/donorregister.php?pwd=etPassword+un=etUsername");
+            HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+            conn.setDoOutput(true);
+            OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());
+        }
+        catch (Exception e) {
+        }
+
         bLogin.setOnClickListener(new View.OnClickListener()
                                   {
                                       public void onClick(View view)
@@ -36,5 +50,6 @@ public class MainActivity extends AppCompatActivity {
                                       }
                                   }
         );
+
     }
 }
