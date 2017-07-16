@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".Notification" />
-        <activity android:name=".BloobBank"></activity>
+        <activity android:name=".BloobBank" />
+        <activity android:name=".Map"></activity>
     </application>
 
 </manifest>

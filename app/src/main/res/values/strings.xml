@@ -1,4 +1,15 @@
 <resources>
+<<<<<<< HEAD
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main4">Main4Activity</string>
+=======
     <string name="app_name">Uwh</string>
     <string name="title_activity_maps">Map</string>
+>>>>>>> 979da5a55da619cb69fc1cb941c3f1c05480ff17
 </resources>
